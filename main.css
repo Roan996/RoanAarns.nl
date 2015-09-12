@@ -1,0 +1,38 @@
+body {
+    background-image: image() ;
+}
+
+.nav {
+    border: 3px solid #2E2E2E;
+}
+
+.col-md-3 {
+    border: 1px solid #2E2E2E;
+    /*background-color: #2E2E2E;*/
+    color: #2E2E2E;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.col-md-3 a {
+    font-weight: bold;
+    color: #2E2E2E;
+}
+
+.col-md-3 h4 {
+    font-weight: bold;
+    color: #2E2E2E;
+}
+
+.col-md-3:hover {
+    text-underline: none;
+    background-color: #58ACFA;
+}
+
+.jumbotron {
+    background-color: #2E2E2E;
+    color: #58ACFA;
+}
+

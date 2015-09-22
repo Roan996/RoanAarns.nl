@@ -1,6 +1,28 @@
+body {
+    font-family: sans-serif, serif;
+}
+
+a:active {
+    color: inherit;
+    text-decoration: none;
+    cursor: auto;
+}
+
 .header {
     height: 300px;
-    background: url(Images/Header%204.jpg) no-repeat center center;
+    background: url(Images/Sky.jpg);
     background-size: cover;
+}
 
+.btn {
+    display: inline-block;
+    /*background-color: #303030;*/
+    padding: 20px 40px;
+}
+
+.btn:hover {
+    /*background-color: #66CCFF;
+    color: black;*/
+    border-bottom: solid #337ab7;
+    border-radius: 1;
 }

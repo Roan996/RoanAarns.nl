@@ -1,28 +1,12 @@
 body {
     font-family: sans-serif, serif;
-}
-
-a:active {
-    color: inherit;
-    text-decoration: none;
-    cursor: auto;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .header {
-    height: 300px;
-    background: url(Images/Banner%20Jochem.jpg);
-    background-size: cover;
-}
-
-.btn {
-    display: inline-block;
-    /*background-color: #303030;*/
-    padding: 20px 40px;
-}
-
-.btn:hover {
-    /*background-color: #66CCFF;
-    color: black;*/
-    border-bottom: solid #337ab7;
-    border-radius: 1;
+    background: url(Images/Web%20Builder%20Roan%20site.jpg);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
